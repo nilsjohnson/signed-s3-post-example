@@ -1,0 +1,30 @@
+{
+  "name": "signed-s3-post-example",
+  "version": "1.0.0",
+  "description": "example of how to so a singed s3 post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Nils Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "aws-sdk": "^2.773.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
